@@ -202,7 +202,7 @@ class Popup extends React.Component{
 
 				<FormElement>
 					<label htmlFor="publishedDate">Published date</label>
-					<Input type="text" id="publishedDate" onChange={e => this.onChange(e)} value={this.state.publishedDate} placeholder="yyyy-mm-dd"/>
+					<Input type="text" id="publishedDate" onChange={e => this.onChange(e)} value={this.state.publishedDate}/>
 					{this.state.publishedDateErr ? <ErrMsg>Invalid date</ErrMsg> : null}
 				</FormElement>
 
