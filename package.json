@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://shani679.github.io/books/",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "gh-pages": "^1.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
