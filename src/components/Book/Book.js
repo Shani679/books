@@ -149,7 +149,6 @@ class Book extends React.Component{
   render(){
 	const title = this.capitalaize(this.props.book.title);
 	const authors = this.props.book.authors;
-	
   	return (<BookWrapper color={this.props.color}>
 				<BookCover>
 					<Title>{title}</Title>
